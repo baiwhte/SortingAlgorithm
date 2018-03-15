@@ -6,13 +6,13 @@
 //  Copyright © 2018年 Candy. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "BWAppDelegate.h"
 
-@interface AppDelegate ()
+@interface BWAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation BWAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

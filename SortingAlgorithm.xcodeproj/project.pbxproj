@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		368FB6B5205A00FB00110BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6B4205A00FB00110BFD /* AppDelegate.m */; };
-		368FB6B8205A00FB00110BFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6B7205A00FB00110BFD /* ViewController.m */; };
+		368FB6B5205A00FB00110BFD /* BWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6B4205A00FB00110BFD /* BWAppDelegate.m */; };
+		368FB6B8205A00FB00110BFD /* BWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6B7205A00FB00110BFD /* BWViewController.m */; };
 		368FB6BB205A00FB00110BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368FB6B9205A00FB00110BFD /* Main.storyboard */; };
 		368FB6BD205A00FB00110BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368FB6BC205A00FB00110BFD /* Assets.xcassets */; };
 		368FB6C0205A00FB00110BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368FB6BE205A00FB00110BFD /* LaunchScreen.storyboard */; };
 		368FB6C3205A00FB00110BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6C2205A00FB00110BFD /* main.m */; };
+		368FB6CC205A031800110BFD /* BWSortingAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6CB205A031800110BFD /* BWSortingAlgorithm.m */; };
+		368FB6CF205A051A00110BFD /* BWInsertSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6CE205A051A00110BFD /* BWInsertSorting.m */; };
+		368FB6D2205A055900110BFD /* BWBubbleSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6D1205A055900110BFD /* BWBubbleSorting.m */; };
+		368FB6D5205A057400110BFD /* BWShellSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6D4205A057400110BFD /* BWShellSorting.m */; };
+		368FB6D8205A060200110BFD /* BWSortingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6D7205A060200110BFD /* BWSortingFactory.m */; };
+		368FB6DB205A3EC000110BFD /* BWQuickSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FB6DA205A3EC000110BFD /* BWQuickSorting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		368FB6B0205A00FB00110BFD /* SortingAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortingAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		368FB6B3205A00FB00110BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		368FB6B4205A00FB00110BFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		368FB6B6205A00FB00110BFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		368FB6B7205A00FB00110BFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		368FB6B3205A00FB00110BFD /* BWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAppDelegate.h; sourceTree = "<group>"; };
+		368FB6B4205A00FB00110BFD /* BWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAppDelegate.m; sourceTree = "<group>"; };
+		368FB6B6205A00FB00110BFD /* BWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWViewController.h; sourceTree = "<group>"; };
+		368FB6B7205A00FB00110BFD /* BWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWViewController.m; sourceTree = "<group>"; };
 		368FB6BA205A00FB00110BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		368FB6BC205A00FB00110BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		368FB6BF205A00FB00110BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		368FB6C1205A00FB00110BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		368FB6C2205A00FB00110BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368FB6CA205A031800110BFD /* BWSortingAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSortingAlgorithm.h; sourceTree = "<group>"; };
+		368FB6CB205A031800110BFD /* BWSortingAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSortingAlgorithm.m; sourceTree = "<group>"; };
+		368FB6CD205A051A00110BFD /* BWInsertSorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWInsertSorting.h; sourceTree = "<group>"; };
+		368FB6CE205A051A00110BFD /* BWInsertSorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWInsertSorting.m; sourceTree = "<group>"; };
+		368FB6D0205A055900110BFD /* BWBubbleSorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWBubbleSorting.h; sourceTree = "<group>"; };
+		368FB6D1205A055900110BFD /* BWBubbleSorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWBubbleSorting.m; sourceTree = "<group>"; };
+		368FB6D3205A057400110BFD /* BWShellSorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWShellSorting.h; sourceTree = "<group>"; };
+		368FB6D4205A057400110BFD /* BWShellSorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWShellSorting.m; sourceTree = "<group>"; };
+		368FB6D6205A060200110BFD /* BWSortingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSortingFactory.h; sourceTree = "<group>"; };
+		368FB6D7205A060200110BFD /* BWSortingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSortingFactory.m; sourceTree = "<group>"; };
+		368FB6D9205A3EC000110BFD /* BWQuickSorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWQuickSorting.h; sourceTree = "<group>"; };
+		368FB6DA205A3EC000110BFD /* BWQuickSorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWQuickSorting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +76,11 @@
 		368FB6B2205A00FB00110BFD /* SortingAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
-				368FB6B3205A00FB00110BFD /* AppDelegate.h */,
-				368FB6B4205A00FB00110BFD /* AppDelegate.m */,
-				368FB6B6205A00FB00110BFD /* ViewController.h */,
-				368FB6B7205A00FB00110BFD /* ViewController.m */,
+				368FB6C9205A02D700110BFD /* Factory */,
+				368FB6B3205A00FB00110BFD /* BWAppDelegate.h */,
+				368FB6B4205A00FB00110BFD /* BWAppDelegate.m */,
+				368FB6B6205A00FB00110BFD /* BWViewController.h */,
+				368FB6B7205A00FB00110BFD /* BWViewController.m */,
 				368FB6B9205A00FB00110BFD /* Main.storyboard */,
 				368FB6BC205A00FB00110BFD /* Assets.xcassets */,
 				368FB6BE205A00FB00110BFD /* LaunchScreen.storyboard */,
@@ -69,6 +88,25 @@
 				368FB6C2205A00FB00110BFD /* main.m */,
 			);
 			path = SortingAlgorithm;
+			sourceTree = "<group>";
+		};
+		368FB6C9205A02D700110BFD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				368FB6CA205A031800110BFD /* BWSortingAlgorithm.h */,
+				368FB6CB205A031800110BFD /* BWSortingAlgorithm.m */,
+				368FB6CD205A051A00110BFD /* BWInsertSorting.h */,
+				368FB6CE205A051A00110BFD /* BWInsertSorting.m */,
+				368FB6D0205A055900110BFD /* BWBubbleSorting.h */,
+				368FB6D1205A055900110BFD /* BWBubbleSorting.m */,
+				368FB6D3205A057400110BFD /* BWShellSorting.h */,
+				368FB6D4205A057400110BFD /* BWShellSorting.m */,
+				368FB6D6205A060200110BFD /* BWSortingFactory.h */,
+				368FB6D7205A060200110BFD /* BWSortingFactory.m */,
+				368FB6D9205A3EC000110BFD /* BWQuickSorting.h */,
+				368FB6DA205A3EC000110BFD /* BWQuickSorting.m */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +135,7 @@
 		368FB6A8205A00FB00110BFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BW;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Candy;
 				TargetAttributes = {
@@ -142,9 +181,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368FB6B8205A00FB00110BFD /* ViewController.m in Sources */,
+				368FB6B8205A00FB00110BFD /* BWViewController.m in Sources */,
+				368FB6CC205A031800110BFD /* BWSortingAlgorithm.m in Sources */,
 				368FB6C3205A00FB00110BFD /* main.m in Sources */,
-				368FB6B5205A00FB00110BFD /* AppDelegate.m in Sources */,
+				368FB6D5205A057400110BFD /* BWShellSorting.m in Sources */,
+				368FB6D8205A060200110BFD /* BWSortingFactory.m in Sources */,
+				368FB6D2205A055900110BFD /* BWBubbleSorting.m in Sources */,
+				368FB6B5205A00FB00110BFD /* BWAppDelegate.m in Sources */,
+				368FB6CF205A051A00110BFD /* BWInsertSorting.m in Sources */,
+				368FB6DB205A3EC000110BFD /* BWQuickSorting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SortingAlgorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baiwhte.sorting.SortingAlgorithm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiwhte.sorting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,7 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SortingAlgorithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.baiwhte.sorting.SortingAlgorithm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baiwhte.sorting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
